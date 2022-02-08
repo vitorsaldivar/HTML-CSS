@@ -1,0 +1,30 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table {
+    width: 45vw;
+    position: relative;
+    padding: 5px;
+    border-collapse: collapse;
+    border: 1px solid rgba(0, 0, 0, 0.562);
+}
+caption {
+    background-color: rgba(255, 255, 0, 0.678);
+    line-height: 3em;
+    font-size: 3em;
+    font-variant: small-caps;
+    font-weight: bolder;
+
+}
+thead>tr>th {
+    position: sticky;
+    top: -1px;
+    text-transform: capitalize;
+    font-size: 1.5em;
+    background-color: lightgray;
+}
+table td {
+    line-height: 3em;
+    padding: 5px;
+    border: 1px solid rgba(110, 109, 109, 0.712);
+}
